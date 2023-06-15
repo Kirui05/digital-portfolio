@@ -42,54 +42,51 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- contact me form -->
 <section>
-    <div class="main-container">
-        <div class="login">
-            <div class="logcover">
-                <form action="" method="POST">
-                    <div class="form">
-                        <h2>Contact me</h2>
+        <div class="main-container">
+            <div class="login"  style="padding-top: 80px;">
+                <div class="logcover">
+                    <form action="" method="POST">
+                        <div class="form">
+                            <h2>Contact me</h2>
 
-                        <div class="input1">
-                            <label for="name">Name</label>
-                            <div class="icons1">
-                                <ion-icon name="person-outline"></ion-icon>
-                                <input type="text" placeholder="Enter your name" name="name" id="name" required
-                                    value="<?php echo htmlspecialchars($name); ?>">
+                            <div class="input1">
+                                <label for="name">Name</label>
+                                <div class="icons1">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                    <input type="text" placeholder="Enter your name" name="name" id="name" required value="<?php echo htmlspecialchars($name); ?>">
+                                </div>
+                                <span class="error"><?php echo $nameError; ?></span>
                             </div>
-                            <span class="error"><?php echo $nameError; ?></span>
-                        </div>
 
-                        <div class="input1">
-                            <label for="email">Email address</label>
-                            <div class="icons1">
-                                <ion-icon name="mail-outline"></ion-icon>
-                                <input type="text" placeholder="Enter email address" name="email" id="email"
-                                    required value="<?php echo htmlspecialchars($email); ?>">
+                            <div class="input1">
+                                <label for="email">Email address</label>
+                                <div class="icons1">
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                    <input type="text" placeholder="Enter email address" name="email" id="email" required value="<?php echo htmlspecialchars($email); ?>">
+                                </div>
+                                <span class="error"><?php echo $emailError; ?></span>
                             </div>
-                            <span class="error"><?php echo $emailError; ?></span>
-                        </div>
 
-                        <div class="input1">
-                            <label for="message">Message</label>
-                            <div class="icons1">
-                                <textarea name="message" placeholder="Enter your message" id="message" cols="74"
-                                    rows="2"
-                                    style="border: 1px solid #b8b6b6;resize: none;border-radius: 0.375em 0.375em 0.375em 0.375em;background-color:#fff"><?php echo htmlspecialchars($message); ?></textarea>
+                            <div class="input1">
+                                <label for="message">Message</label>
+                                <div class="icons1">
+                                    <textarea name="message" placeholder="Enter your message" id="message" cols="74" rows="2" style="border: 1px solid #b8b6b6;resize: none;border-radius: 0.375em 0.375em 0.375em 0.375em;background-color:#fff"><?php echo htmlspecialchars($message); ?></textarea>
+                                </div>
                             </div>
-                        </div>
 
-                        <button type="submit" class="btnlog" name="login-submit">Submit</button>
-                    </div>
-                </form>
+                            <button type="submit" class="btnlog" name="login-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 
 <style>
     .contact-cover {
         background-color: #fff;
     }
+
     .error {
         color: red;
     }

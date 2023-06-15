@@ -20,6 +20,7 @@ $image10 = get_template_directory_uri() . "/images/gsm.png"
 
 <!-- projects page -->
 <section class="experiences">
+  <div style="margin-top:80px;">
   <h2 style="color:#008759;">Projects</h2>
   <div class="container">
     <div class="experience-list">
@@ -81,6 +82,7 @@ $image10 = get_template_directory_uri() . "/images/gsm.png"
       </div>
       <!-- Add more projects cards here -->
     </div>
+  </div>
   </div>
 </section>
 

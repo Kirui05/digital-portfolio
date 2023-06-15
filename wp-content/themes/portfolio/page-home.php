@@ -43,10 +43,13 @@ $image6 = get_template_directory_uri() . "/images/dekut.png"
         <ul><ion-icon style="color: #008759;" name="add-outline"></ion-icon> Manufacturing</ul>
       </div>
 
-      <p style="width:400px;font-size: large;border:#008759;background-color: #008759;color:#fff;border-radius:10px;text-align:center;padding:2px;" >Contact: +254715931458 | +254746106859</p>
+      <button style="margin-bottom:10px;border:none;color:white;background-color:#008759;border-radius:10px;">
+        <a href="mailto:nicholaskirui6@gmail.com" style="color: white; text-decoration: none;">Email me</a>
+      </button>
+      <p style="width:400px;font-size: large;border:#008759;background-color: #008759;color:#fff;border-radius:10px;text-align:center;padding:2px;">Contact: +254715931458 | +254746106859</p>
     </div>
     <div class="intro-image">
-      <img src="<?php echo $image ?>" alt="Your Image">
+      <img style="background-color:#008759" src="<?php echo $image ?>" alt="Your Image">
     </div>
   </div>
 </section>
@@ -55,11 +58,11 @@ $image6 = get_template_directory_uri() . "/images/dekut.png"
 <section class="about" id="about">
   <div class="container">
     <div class="about-image">
-      <img src="<?php echo $image1 ?>" alt="Your Image">
+      <img style="background-color:#008759" src="<?php echo $image1 ?>" alt="Your Image">
     </div>
     <div class="about-content">
-      <h2 style="margin-bottom: 10px;color:#008759;" >About Me</h2>
-      <p style="margin-bottom: 10px;" >I am a highly motivated mechatronics engineer and software developer with a passion for integrating mechanical, electrical, and computer engineering principles to create innovative solutions. With a critical and analytical thinking approach, I thrive in challenging environments that require problem-solving and out-of-the-box thinking.</p>
+      <h2 style="margin-bottom: 10px;color:#008759;">About Me</h2>
+      <p style="margin-bottom: 10px;">I am a highly motivated mechatronics engineer and software developer with a passion for integrating mechanical, electrical, and computer engineering principles to create innovative solutions. With a critical and analytical thinking approach, I thrive in challenging environments that require problem-solving and out-of-the-box thinking.</p>
       <p>I am an excellent team player and communicator, able to effectively collaborate with multidisciplinary teams to achieve project objectives. I am also comfortable taking the lead and assuming responsibility when necessary. My strong work ethic, attention to detail, and commitment to excellence ensure that I consistently deliver high-quality results. Download my CV from the link below.</p>
       <a href="https://drive.google.com/file/d/1xh-eB4c5snTI8HCzYfskMXLfyTG83qBo/view?usp=drive_link" class="btn-download">Download CV</a>
     </div>
@@ -68,7 +71,7 @@ $image6 = get_template_directory_uri() . "/images/dekut.png"
 
 <!-- skills section -->
 <section class="skills">
-  <h2 style="color:#008759;" >Skills</h2>
+  <h2 style="color:#008759;">Skills</h2>
   <div class="container">
     <div class="skills-list">
       <div class="skill">
@@ -119,7 +122,7 @@ $image6 = get_template_directory_uri() . "/images/dekut.png"
 
 <!-- experiences section -->
 <section class="experiences">
-  <h2 style="color:#008759;" >Experiences</h2>
+  <h2 style="color:#008759;">Experiences</h2>
   <div class="container">
     <div class="experience-list">
       <div class="experience">
@@ -131,8 +134,8 @@ $image6 = get_template_directory_uri() . "/images/dekut.png"
           <p>Software Developer Trainee</p>
           <p style="color:#008759;">April 2023 - Present</p>
           <h5>Skills learnt</h5>
-            <li>Web Development</li>
-            <li>PHP, HTML, CSS</li>
+          <li>Web Development</li>
+          <li>PHP, HTML, CSS</li>
         </div>
       </div>
       <div class="experience">

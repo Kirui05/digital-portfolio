@@ -28,7 +28,7 @@ $image6 = get_template_directory_uri() . "/images/dekut.png"
 ?>
 <!-- intro section -->
 <section class="intro">
-  <div class="container">
+  <div class="container" style="margin-top: 80px;">
     <div class="intro-content">
       <h2 style="font-size:25px;">Hello, My name is</h2>
       <h2 style="font-size:50px;font-weight: bold;margin-bottom: 25px;">Nicholas Kirui</h2>

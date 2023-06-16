@@ -34,7 +34,7 @@ $image10 = get_template_directory_uri() . "/images/gsm.png"
           <p style="color:#008759;">June 2023</p>
           <p>An innovative program management project focused on optimizing processes and driving cross-functional collaboration to deliver successful outcomes.</p>
           <button style="margin-bottom:10px;border:none;color:white;background-color:#008759;border-radius:10px;">
-        <a href="http://localhost/EasyManage/" style="color: white; text-decoration: none;">View Details</a>
+        <a href="https://github.com/Kirui05/EasyManage" style="color: white; text-decoration: none;">View Details</a>
       </button>
         </div>
       </div>
@@ -48,7 +48,7 @@ $image10 = get_template_directory_uri() . "/images/gsm.png"
           <p style="color:#008759;">May 2023</p>
           <p>Efficient event management platform that streamlines planning, coordination, and execution for seamless and memorable experiences.</p>
           <button style="margin-bottom:10px;border:none;color:white;background-color:#008759;border-radius:10px;">
-        <a href="http://localhost/plana-event-management/" style="color: white; text-decoration: none;">View Details</a>
+        <a href="https://github.com/brianMunyao/plana-event-management" style="color: white; text-decoration: none;">View Details</a>
       </button>
         </div>
       </div>

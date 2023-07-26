@@ -1,5 +1,6 @@
 /* header styling */
-header {
+/* @media screen and (max-width: 300px){ */
+  header {
   background-color: #fff;
   padding: 10px 0;
   margin-top: 0;
@@ -148,6 +149,7 @@ nav ul li a:hover {
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .skill-icon {
@@ -196,7 +198,6 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
 }
-
 .experience-image {
   width: 40%;
 }
@@ -388,11 +389,8 @@ label:last-child span {
   text-decoration: none;
   color: #008759;
 }
-
-@media screen and (max-width: 600px) {
   .regcover {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     width: 100%;
-  }
 }

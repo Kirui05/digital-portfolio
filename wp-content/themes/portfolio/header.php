@@ -16,13 +16,13 @@
 <header>
   <div class="container">
     <div class="logo">
-    <h1><a href="http://localhost/digital-portfolio/home-page/" style="color:#008759;  text-decoration: none;" class="bold">PORTFOLIO</a></h1>
+    <h1><a href="<?php echo site_url('/home')?>" style="color:#008759;  text-decoration: none;" class="bold">PORTFOLIO</a></h1>
     </div>
     <nav>
       <ul>
         <li><a href="#about">About me</a></li>
-        <li><a href="http://localhost/digital-portfolio/projects-page/">Projects</a></li>
-        <li><a href="http://localhost/digital-portfolio/contact-page/">Contact me</a></li>
+        <li><a href="<?php echo site_url('/projects')?>">Projects</a></li>
+        <li><a href="<?php echo site_url('/contact')?>">Contact me</a></li>
       </ul>
     </nav>
   </div>

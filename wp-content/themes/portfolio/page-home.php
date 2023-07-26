@@ -43,7 +43,7 @@ $image6 = get_template_directory_uri() . "/images/dekut.png"
         <ul><ion-icon style="color: #008759;" name="add-outline"></ion-icon> Manufacturing</ul>
       </div>
       
-      <p style="width:400px;font-size:large;border:#008759;background-color: #008759;color:#fff;border-radius:10px;text-align:center;padding:2px;">Contact: +254715931458 | +254746106859</p>
+      <p style="width:400px;font-size:large;border:#008759;background-color: #008759;color:#fff;border-radius:10px;text-align:center;padding:2px;">Contact: +254715931458</p>
     </div>
     <div class="intro-image">
       <img style="background-color:#008759" src="<?php echo $image ?>" alt="Your Image">
